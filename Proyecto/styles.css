@@ -34,24 +34,17 @@ body {
     left:170px;
 
 }
+
+.Input_cuadradopago{
+    background-color:yellowgreen;
+    left:250px;
+}
+
 .caja1{
     background-color:#ff88ff;
     width:300px;
     height:300px;
     float:left;
-    right:50px;
+    right:200px;
 }
 
-.caja2{
-    background-color:#88ffff;
-    width:400px;
-    height:300px;
-    float:left;
-}
-
-.caja3{
-    background-color:#ffaa88;
-    width:300px;
-    height:300px;
-    float:left;
-}

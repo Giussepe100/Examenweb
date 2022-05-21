@@ -9,7 +9,7 @@
 </head>
 <body >
 
-    
+     <!--Colocando cajas -->
     <div style="background-color:black;color:white;padding-top:4px;"><center><h1>Modelo pago</h1></center></div>
 
     <div class="cuadrado">
@@ -17,7 +17,37 @@
     </div>
 
     <div class="rectangulo">
-        <p>Soy la caja 2</p>
+        <form>
+           <fieldset>
+               <legend>Ingrese datos</legend>
+               <p>
+                   <label for="first-name">codigo operación:&nbsp;&nbsp;&nbsp;</label>
+                   <input type="text" id="first-name">
+
+               </p>
+
+               <p>
+                 <label for="second-name">Número de tarjeta:&nbsp;&nbsp;</label>
+                 <input type="text" id="second-name">
+              </p>
+
+              <p>
+                <label for="codigo-name"> código de seguridad:&nbsp;</label>
+                <input type="text" id="codigo-name">
+             </p>
+
+             <p>
+                <label for="codigo-impo"> Importe:&nbsp;</label>
+                <input type="text" id="codigo-impo">
+             </p>
+
+             <p>
+                <label for="fecha-impo"> Fecha:&nbsp;</label>
+                <input class="Input_cuadradopago"type="text" id="fecha-impo">
+             </p>
+           </fieldset>
+
+        </form>
     </div>
 
     <div class="rectangulo1">
@@ -25,14 +55,7 @@
     </div>
      
     
-    <!-- Lista de temporadas
-    <div class="rectangulo"></div>
-    <div class="rectangulo"></div>
-    <div class="rectangulo">
-
-        <p>Ingrese su numero de cuenta</p>
-    </div>
-    -->
+    
     
 </body>
 </html>
