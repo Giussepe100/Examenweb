@@ -16,7 +16,7 @@ body {
 }
 
 .rectangulo {
-    background-color:red;
+    
     width: 750px;
     height:500px;
     float:left;
@@ -35,16 +35,18 @@ body {
 
 }
 
-.Input_cuadradopago{
-    background-color:yellowgreen;
-    left:250px;
+
+
+.alejamiento{
+    position:relative;
+    left:300px;
 }
 
-.caja1{
-    background-color:#ff88ff;
-    width:300px;
-    height:300px;
-    float:left;
-    right:200px;
-}
-
+label {
+    display: block;
+    margin: .5em 0 0 0;
+  }
+  
+.div1 {
+    margin: .4em 0;
+  }

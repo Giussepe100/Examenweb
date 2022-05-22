@@ -18,34 +18,48 @@
 
     <div class="rectangulo">
         <form>
-           <fieldset>
+           <fieldset >
                <legend>Ingrese datos</legend>
-               <p>
-                   <label for="first-name">codigo operación:&nbsp;&nbsp;&nbsp;</label>
-                   <input type="text" id="first-name">
+               <div class="div1">
+                  <p>
+                     <label for="first-name"><strong>codigo operación:</strong></label>
+                     <input type="text" id="first-name"disabled>
+                   </p>
+              </div>
 
-               </p>
+              <div class="div1">
+                  <p>
+                     <label for="second-name"><strong>Número de tarjeta:</strong></label>
+                     <input type="text" id="second-name" >
+                 </p>
+             </div>
 
-               <p>
-                 <label for="second-name">Número de tarjeta:&nbsp;&nbsp;</label>
-                 <input type="text" id="second-name">
-              </p>
+              <div class="div1">
+                  <p>
+                     <label for="codigo-name"><strong> código de seguridad:</strong></label>
+                     <input type="text" id="codigo-name">
+                  </p>
+             </div>
 
-              <p>
-                <label for="codigo-name"> código de seguridad:&nbsp;</label>
-                <input type="text" id="codigo-name">
-             </p>
+             <div class="div1">
+                 <p>
+                     <label for="codigo-impo"><strong> Importe:</strong></label>
+                     <input type="text" id="codigo-impo">
+                 </p>
+             </div>
 
-             <p>
-                <label for="codigo-impo"> Importe:&nbsp;</label>
-                <input type="text" id="codigo-impo">
-             </p>
+             <div class="div1">
+                  <p>
+                     <label for="fecha-impo"><strong> Fecha:</strong></label>
+                     <input type="datetime-local" id="fecha-impo">
+                     
+                 </p>
+             </div>
 
-             <p>
-                <label for="fecha-impo"> Fecha:&nbsp;</label>
-                <input class="Input_cuadradopago"type="text" id="fecha-impo">
-             </p>
-           </fieldset>
+             <div >
+                 <input class="alejamiento" type="button" value="Procesar" name="btn_enviargmail" >
+             </div>
+         </fieldset>
 
         </form>
     </div>
