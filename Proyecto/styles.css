@@ -17,21 +17,21 @@ body {
 
 .rectangulo {
     
-    width: 750px;
-    height:500px;
+    width: 500px;
+    height:530px;
     float:left;
     position:relative;
-    left:130px;
+    left:150px;
 
 }
 
 .rectangulo1{
     background-color:blue;
-    width: 400px;
-    height:500px;
+    width: 600px;
+    height:360px;
     float:left;
     position:relative;
-    left:170px;
+    left:190px;
 
 }
 
@@ -49,4 +49,20 @@ label {
   
 .div1 {
     margin: .4em 0;
-  }
+}
+
+.imagenautor{
+    float:left
+}
+
+
+
+.AlineandoBiográfia{
+    position:relative;
+    left:50px;
+}
+
+.botonbiografiacentrar{
+    position:relative;
+    left:1300px;
+}
