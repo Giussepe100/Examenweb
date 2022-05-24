@@ -6,15 +6,67 @@ body {
 }
 
 .cuadrado {
-    width: 200px;
-    height:200px;
-    position:fixed;
-    left:50px;
+   width:190px;
+   height:200px;
+   background-color:#aaa;
+   position:relative;
+   left:100px;
+   float:left;
+   
 }
 
 .rectangulo {
-    width: 300px;
-    height:300px;
     
+    width: 500px;
+    height:530px;
+    float:left;
+    position:relative;
+    left:150px;
 
 }
+
+.rectangulo1{
+    background-color:blue;
+    width: 600px;
+    height:360px;
+    float:left;
+    position:relative;
+    left:190px;
+
+}
+
+
+
+.alejamiento{
+    position:relative;
+    left:300px;
+    height:30px;
+}
+
+label {
+    display: block;
+    margin: .5em 0 0 0;
+  }
+  
+.div1 {
+    margin: .4em 0;
+}
+
+.imagenautor{
+    float:left
+}
+
+
+
+.AlineandoBiográfia{
+    position:relative;
+    left:50px;
+}
+
+.botonbiografiacentrar{
+    position:relative;
+    height:30px;
+    left:1250px;
+}
+
+

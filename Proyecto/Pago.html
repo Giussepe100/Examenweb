@@ -8,15 +8,70 @@
     <title>Modelo pago</title>
 </head>
 <body >
-    
-    <center><h1>Modelo pago</h1></center>
 
-    <div class="cuadrado"><img  src="imagenes/tarjetas.jpg"  align="left" height="180" width="250"></div>
+     <!--Colocando cajas -->
+    <div style="background-color:black;color:white;padding-top:4px;"><center><h1>Modelo pago</h1></center></div>
 
-    <div class="rectangulo"></div>
-    <div class="rectangulo"></div>
-    <div class="rectangulo"></div>
+    <div class="cuadrado">
+        <img  src="imagenes/tarjetas.jpg"  align="left" height="200" width="200">
+    </div>
+
+    <div class="rectangulo">
+        <form>
+           <fieldset >
+               <legend><strong><font size="4">Ingrese datos:</font></strong></legend>
+               <div class="div1">
+                  <p>
+                     <label for="first-name"><font size="4">Código operación:</font></label>
+                     <input type="text" id="first-name"disabled>
+                   </p>
+              </div>
+
+              <div class="div1">
+                  <p>
+                     <label for="second-name"><font size="4">Número de tarjeta:</font></label>
+                     <input type="text" id="second-name" >
+                 </p>
+             </div>
+
+              <div class="div1">
+                  <p>
+                     <label for="codigo-name"><font size="4">Código de seguridad:</font></label>
+                     <input type="text" id="codigo-name">
+                  </p>
+             </div>
+
+             <div class="div1">
+                 <p>
+                     <label for="codigo-impo"><font size="4">Importe:</font></label>
+                     <input type="text" id="codigo-impo">
+                 </p>
+             </div>
+
+             <div class="div1">
+                  <p>
+                     <label for="fecha-impo"><font size="4">Fecha de pago:</font></label>
+                     <input type="datetime-local" id="fecha-impo">
+                     
+                 </p>
+             </div>
+
+             <div >
+                 <input class="alejamiento" type="button" value="Procesar" name="btn_enviargmail" >
+             </div>
+         </fieldset>
+
+        </form>
+    </div>
+
+    <div class="rectangulo1">
+          <img src="imagenes/fraselibro.jpg " height="380px" width="600px">
+    </div>
+     
     
     
+     <!--Que los botones solo te lleven a otra pagina  tiene que estar  -->
+     <!--Faltaria ver lo como guardar los libros en la base de datos  y ver  lo de gmail enviarlo con php para enviar datos reales 
+    y ver si el usuario inicion seccion  para enviarle al correo guardado en la base de datos   -->
 </body>
 </html>
