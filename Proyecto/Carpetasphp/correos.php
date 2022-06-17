@@ -9,7 +9,7 @@
   echo "<script>alert('correo enviado exitosamente')</scrip>";
   echo "<script>setTimeout(\"location.href='Pago.html'\",1000)</scrip>";
 
-
+ //no esta enviando nada poruqe esta buscando que datos extraer pero no esta extraendo
 
 
 ?>
