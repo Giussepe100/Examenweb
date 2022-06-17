@@ -18,41 +18,41 @@
     </div>
 
     <div class="rectangulo">
-        <form action="correos.php"  method="POST">
+        <form action="Verificandopago.php"  method="post">
            <fieldset >
                <legend><strong><font size="4">Ingrese datos:</font></strong></legend>
                <div class="div1">
                   <p>
                      <label for="first-name"><font size="4">Código operación:</font></label>
-                     <input type="text" id="first-name"disabled>
-                   </p>
+                     <input type="text" name="Codigo_Operacion" id="first-name"> <!--pONGO EL DISabled para que el usuario no pueda modificar -->
+                   </p>                                                         <!--dentro del input -->
               </div>
 
               <div class="div1">
                   <p>
                      <label for="second-name"><font size="4">Número de tarjeta:</font></label>
-                     <input type="text" id="second-name" >
+                     <input type="text" name="Numero_Tarjeta" id="second-name" >
                  </p>
              </div>
 
               <div class="div1">
                   <p>
                      <label for="codigo-name"><font size="4">Código de seguridad:</font></label>
-                     <input type="text" id="codigo-name">
+                     <input type="text"name="Codigo_Seguridad" id="codigo-name">
                   </p>
              </div>
 
              <div class="div1">
                  <p>
                      <label for="codigo-impo"><font size="4">Importe:</font></label>
-                     <input type="text" id="codigo-impo">
+                     <input type="text" name="Importe_total" id="codigo-impo">
                  </p>
              </div>
 
              <div class="div1">
                   <p>
                      <label for="fecha-impo"><font size="4">Fecha de pago:</font></label>
-                     <input type="datetime-local" id="fecha-impo">
+                     <input type="datetime-local"  id="fecha-impo">
                      
                  </p>
              </div>
