@@ -1,7 +1,3 @@
-html {
-    background: url("imagenes/Fondo.jpg") fixed;
-    background-size: cover;
-}
 #titulo {
     font-size: 50px;
     font-family: cursive;
@@ -20,7 +16,7 @@ html {
     padding: 0 18px;
 }
 .buscar input {
-    width: 800px;
+    width: 50%;
     height: 25px;
     font-size: 15px;
     border-radius: 30px;
@@ -36,7 +32,7 @@ html {
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .portada{
     margin-left: 20%;
@@ -70,6 +66,7 @@ html {
     text-shadow: 1px 1px 0 black;
     text-decoration: none;
     display: inline-block;
+    color: black;
 }
 .link-autor{
     font-family: cursive;
@@ -88,5 +85,6 @@ html {
     border: solid 2px black;
     font-family: cursive;
     margin-top: 5px;
+    color: black;
 }
 /*-----------------------------------*/
