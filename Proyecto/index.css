@@ -19,12 +19,6 @@ html {
     border-radius: 30px;
     padding: 0 18px;
 }
-#libros{
-    width: 45%;
-    height: auto;
-    float: left;
-    margin: 10px;
-}
 .buscar input {
     width: 800px;
     height: 25px;
@@ -32,36 +26,67 @@ html {
     border-radius: 30px;
     padding: 0 18px;
 }
-#imagen_libros {
-    border-radius: 20px;
-    margin-right: 20px;
+/*-----------------------------------*/
+.contenido {
+    padding: 20px 0 20px;
+}
+.libros {
+    width: 250px;
+    display: inline-block;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
     margin-bottom: 20px;
-    float: left;
+}
+.portada{
+    margin-left: 20%;
+}
+.imagen-portada{
+    position: relative;
+    display: block;
+    width: 150px;
+    margin-bottom: 17px;
+}
+.imagen{
+    width: 150px;
+    height: 180px;
+    display: block;
+    border-radius: 20px;
     box-shadow: black 5px 5px 5px;
     -webkit-transition: -webkit-transform 0.2s ease-in-out 0.1s;
 }
-#imagen_libros:hover {
+.imagen:hover {
     -webkit-transform: scale(1.07);
-
 }
-.boton{
-    border-radius: 5px;
-    margin-top: 10px;
-    padding: 0 5px;
-    font-size: 15px;
-    color: black;
-    box-shadow: 2px 2px 0 black;
+.links-libro {
+    width: 270px;
+    align-items: left;
+    padding-left: 20px;
+    position: relative;
 }
-.link {
+.link-titulo {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 1px 1px 0 black;
     text-decoration: none;
     display: inline-block;
 }
-.link_autor{
+.link-autor{
     font-family: cursive;
-    font-size: 22px;
+    font-size: 17px;
     text-decoration: none;
     color: black;
 }
+.btn {
+    background-color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 7px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 black;
+    border: solid 2px black;
+    font-family: cursive;
+    margin-top: 5px;
+}
+/*-----------------------------------*/
