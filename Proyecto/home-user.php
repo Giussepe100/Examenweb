@@ -1,11 +1,17 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <link rel="stylesheet" href="css/index.css">
 <html lang="es" style="background: url(imagenes/Fondo.jpg) fixed;background-size: cover;">
 <head>
     <h1 align="center" id="titulo">EduLibro
-        <a href="login.html" style="text-decoration: none; float: right; color: black; font-size: 20px; margin-right: 30px; 
-        text-shadow: none; margin-top: 35px;">
-            <img src="imagenes/login_icon.png" height="30px" width="30px" align="center">&nbsp;Login</a>
+        <a href="Carpetasphp/cerrar_sesion.php" style="text-decoration: none; float: right; color: black; font-size: 17px; margin-right: 30px; 
+        text-shadow: none; margin-top: 35px;" class="btn">Salir</a>
+        <a href="login.html" style="text-decoration: none; float: right; color: black; font-size: 17px; margin-right: 30px; 
+        text-shadow: none; margin-top: 35px;" class="btn"><img src="imagenes/carrito.png" height="20px" width="20px" align="center">
+        <?php echo $_SESSION['usuario']; ?></a>
     </h1>
 </head>
 <body>
@@ -33,7 +39,7 @@
                 <a href="ojala.html" class="link-titulo">OJALA</a><br>
                 <a href="biografíaautor.html" class="link-autor">Defreds José. A. Gomez Iglesias</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.15</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.15</a>
             </div>
         </div>
         <div class="libros">
@@ -46,7 +52,7 @@
                 <a href="ojala.html" class="link-titulo">LA METAMORFOSIS</a><br>
                 <a href="biografíaautor.html" class="link-autor">Franz Kafka</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
             </div>
         </div>
         <div class="libros">
@@ -59,7 +65,7 @@
                 <a href="ojala.html" class="link-titulo">CRIMEN Y CASTIGO</a><br>
                 <a href="biografíaautor.html" class="link-autor">Fiódor Dostoyevski</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
             </div>
         </div>
         <div class="libros">
@@ -72,7 +78,7 @@
                 <a href="ojala.html" class="link-titulo">LA CARRETERA</a><br>
                 <a href="biografíaautor.html" class="link-autor">Cormac McCarthy</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
             </div>
         </div>
         <div class="libros">
@@ -85,7 +91,7 @@
                 <a href="ojala.html" class="link-titulo">OJALA</a><br>
                 <a href="biografíaautor.html" class="link-autor">Defreds José. A. Gomez Iglesias</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.15</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.15</a>
             </div>
         </div>
 
@@ -100,7 +106,7 @@
                 <a href="ojala.html" class="link-titulo">CRIMEN Y CASTIGO</a><br>
                 <a href="biografíaautor.html" class="link-autor">Fiódor Dostoyevski</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
             </div>
         </div>
         <div class="libros">
@@ -113,7 +119,7 @@
                 <a href="ojala.html" class="link-titulo">LA METAMORFOSIS</a><br>
                 <a href="biografíaautor.html" class="link-autor">Franz Kafka</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
             </div>
         </div>
         <div class="libros">
@@ -126,7 +132,7 @@
                 <a href="ojala.html" class="link-titulo">LA CARRETERA</a><br>
                 <a href="biografíaautor.html" class="link-autor">Cormac McCarthy</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
-                <a href="login.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
+                <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.20</a>
             </div>
         </div>
 
