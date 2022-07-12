@@ -1,0 +1,81 @@
+body {
+    background: skyblue;
+    font-family: cursive;
+}
+.login-registrar {
+    width: 820px;
+    height: 600px;
+    background: #C7F1F7 ;
+    color: #340F0F;
+    top: 400px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: #C7F1F7 2px 3px 10px 10px;
+}
+.login-registrar .avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: calc(15% - 50px);
+    border-radius: 30px;
+}
+
+.login-registrar h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.login-registrar label{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: bold;
+    display: block;
+}
+
+.login-registrar input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-registrar input[type="text"],
+.login-registrar input[type="password"],
+.login-registrar input[type="number"],
+.login-registrar input[type="email"] {
+    border: none;
+    border-bottom: 1px solid white;
+    height: 20px;
+    font-family: cursive;
+    color: #340F0F;
+    font-size: 16px;
+}
+
+.login-registrar input[type="checkbox"]{
+    height: 15px;
+    color: #340F0F; 
+
+}
+
+.login-registrar input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-registrar p{
+    text-decoration: none;
+    font-size:15px;
+    line-height: 20px;
+    color: blue;
+}
