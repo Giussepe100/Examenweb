@@ -1,42 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" style="background: url(imagenes/Fondo.jpg) fixed; background-size: cover;">
   <head>
     <meta charset="utf-8">
     <title>Registro de Datos en EduLibro</title>
-    <link rel="stylesheet" href="registrarse.css">
+    <link rel="stylesheet" href="css/registrarse.css">
   </head>
   <body>
-
     <div class="login-registrar">
       <img src="img/edulibro 2.jpg" class="avatar" alt="Avatar Image">
       <h1>Hazte socio de EduLibro</h1>
-      <form>
+      <form action="registro.php" method="POST">
           <p>Empieza a disfrutar por ser socio de ventajas exclusivas.</p>
 
+        <label for="username">Nombre de Usuario</label>
+        <input name="usuario" type="text" placeholder="Nombre de usuario">
         <!-- Ingresar nombre -->
         <label for="name">Nombre</label>
-        <input type="text">
+        <input name="nombres" type="text" placeholder="Nombres">
 
         <!-- Ingresar apellidos -->
         <label for="surname">Apellidos</label>
-        <input type="text">
+        <input name="apellidos" type="text" placeholder="Apellidos">
 
         <!-- Ingresar correo -->
         <label for="email">Correo</label>
-        <input type="email">
+        <input name="email" type="email" placeholder="ejemplo@gmail.com">
 
         <!-- Ingresar contraseña -->
         <label for="contraseña">Contraseña</label>
-        <input type="password">
+        <input name="password" type="password" placeholder="Ingresa la contraseña">
 
-        <p>Para identificarte como socio solo tendras que indicar tu telefono</p>
-
-        <!-- Ingresar telefono -->
-        <label for="telefono">Telefono</label>
-        <input type="number">
-
-        <input type="submit" value="Registrarme">
-        <input type="checkbox"> Aceptar los terminos y condiciones <br>
+        <input type="submit" value="Registrarme" name="btn_registro">
       </form>
     </div>
   </body>

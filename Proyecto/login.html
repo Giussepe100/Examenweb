@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" style="background: url(imagenes/Fondo.jpg) fixed; background-size: cover;">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-user">
+        <img class="avatar"src="imagenes/login_icon.png" alt="logo Inicio Edulibro">
+        <h1>Inicia Sesión</h1>
+        <form action="validar_login.php" method="POST">
+            <!-- email de usuario -->
+            <label for="email">Email</label>
+            <input type="text" placeholder="Ingresa el nombre de usuario" name="usuario">
+
+            <!-- contraseña -->
+            <label for="contraeña">Contraseña</label>
+            <input type="password" placeholder="Ingresa la contraseña" name="contrasena">
+
+            <input type="submit" value="Iniciar Sesión" name="btn_login">
+
+            <a href="recuperar.html">¿Has olvidado tu contraseña?</a>
+            <br>
+            <a href="registrarse.html">Crea tu cuenta</a>
+        </form>
+    </div>
+</body>
+</html>
