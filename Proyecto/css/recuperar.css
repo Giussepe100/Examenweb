@@ -1,0 +1,47 @@
+html {
+    font-family: cursive;
+}
+#titulo {
+    font-size: 50px;
+    color: #293496;
+    text-shadow: 3px 3px 0 #001073;
+}
+.recuperar-password {
+    margin: 20px 15%;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 40%;
+    box-shadow: white 2px 3px 10px 10px;
+}
+.formulario {
+    font-size: 20px;
+    font-weight: bold;
+}
+.formulario input{
+    width: 40%;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 0 18px;
+}
+.login-user a:hover{
+    color: black;
+}
+.btn {
+    font-weight: normal;
+    background-color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 7px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 black;
+    border: solid 2px black;
+    margin-top: 5px;
+    color: black;
+    cursor: pointer;
+}
