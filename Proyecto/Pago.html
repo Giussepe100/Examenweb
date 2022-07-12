@@ -5,42 +5,48 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Iconos -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js"  crossorigin="anonymous"></script>
 
     <title>Modelo pago</title>
 </head>
 <body >
 
      <!--Colocando cajas -->
-    <div style="background-color:black;color:white;padding-top:4px;"><center><h1>Modelo pago</h1></center></div>--
-
+    <div style="background-color:black;color:white;padding-top:4px;"><center><h1>Modelo pago</h1></center></div>
+<!--biendo 
     <div class="cuadrado">
         <img  src="imagenes/tarjetas.jpg"  align="left" height="200" width="200">
     </div>
-
+-->
     <div class="rectangulo">
-        <form action="Verificandopago.php"  method="post">
+        <form action="Carpetasphp/Verificandopago.php"  method="post">
            <fieldset >
                <legend><strong><font size="4">Ingrese datos:</font></strong></legend>
                <div class="div1">
                   <p>
                      <label for="first-name"><font size="4">Código operación:</font></label>
-                     <input type="text" name="Codigo_Operacion" id="first-name"> <!--pONGO EL DISabled para que el usuario no pueda modificar -->
+                     <input type="text" name="Codigo_Operacion" id="first-name" ><!--disableantes de cerrar poner-->
+                     <!--pONGO EL DISabled para que el usuario no pueda modificar -->
                    </p>                                                         <!--dentro del input -->
               </div>
-
               <div class="div1">
                   <p>
                      <label for="second-name"><font size="4">Número de tarjeta:</font></label>
-                     <input type="text" name="Numero_Tarjeta" id="second-name" >
+                     <input type="password" name="Numero_Tarjeta" id="second-name" >
+                    <!-- <input type="text" name="Numero_Tarjeta" id="second-name" >-->
                  </p>
              </div>
-
+             
+            
+             
               <div class="div1">
                   <p>
                      <label for="codigo-name"><font size="4">Código de seguridad:</font></label>
-                     <input type="text"name="Codigo_Seguridad" id="codigo-name">
+                     <input type="password"name="Codigo_Seguridad" id="codigo-name">
                   </p>
              </div>
+            
 
              <div class="div1">
                  <p>
@@ -48,7 +54,7 @@
                      <input type="number" name="Importe_total" id="codigo-impo">
                  </p>
              </div>
-
+            
              <div class="div1">
                   <p>
                      <label for="fecha-impo"><font size="4">Fecha de pago:</font></label>
@@ -56,7 +62,6 @@
                      
                  </p>
              </div>
-
              
             
              <div >
@@ -70,13 +75,15 @@
     </div>
       
      <div class="rectangulo1">
-          <img src="imagenes/fraselibro.jpg " height="380px" width="600px">
+          <img src="imagenes/fraselibro.jpg " height="360px" width="600px">
      </div>
 
-    <!--
+    
+
+    
     <footer class="pie_depagina">
            <div class="grupo_1">
-                <div class="box">
+                <div class="box">   
                     <figure>
                         <a href="#">
                             <img src="imagenes/logo.jpg">
@@ -96,7 +103,7 @@
                     <div class="red_social">
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twiter"></a>
+                        <a href="#" class="fa fa-twitter"></a>
                         <a href="#" class="fa fa-youtube"></a>
                     </div>
 
@@ -109,11 +116,11 @@
 
            </div>
     </footer>
-    -->
+
+      
+   
       
     
-      
-     <!--Que los botones solo te lleven a otra pagina  tiene que estar  -->
      <!--Faltaria ver lo como guardar los libros en la base de datos  y ver  lo de gmail enviarlo con php para enviar datos reales 
     y ver si el usuario inicion seccion  para enviarle al correo guardado en la base de datos   -->
 </body>

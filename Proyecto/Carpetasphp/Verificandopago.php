@@ -1,4 +1,4 @@
-<?php
+   <?php
 
   $Codigo_Operacion=$_POST['Codigo_Operacion'];//IGUAL A codigo de boleta
   $Numero_Tarjeta=$_POST['Numero_Tarjeta'];
@@ -7,7 +7,7 @@
 
   $Codi_Operacion=false;
   $Nume_Tarjeta=false;
-  $Codi_Seguridad=false;
+  $Codi_Seguridad=false;   
   $Impo_Total=false;
   //LOGICA
   //primera condicion  para el codigo operacion 
@@ -62,7 +62,11 @@
    print"<p> Su codigo de Seguridad es <strong>$Codigo_Seguridad</strong></p>";
    print "\n";
    print"<p> Su importe<strong>$Importe_total</strong></p>";
+   print "\n";
+   
    }
+
+   
 
 ?>
 
