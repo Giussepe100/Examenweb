@@ -40,7 +40,7 @@
                 <a href="biografíaautor.html" class="link-autor">Defreds José. A. Gomez Iglesias</a><br>
                 <a href="ojalaprevisualizacion.html" class="btn">Previsualizar</a><br>
                 <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.15</a>
-            </div>
+            </div><!--va directo a la pagina de pago -->
         </div>
         <div class="libros">
             <div class="portada">
