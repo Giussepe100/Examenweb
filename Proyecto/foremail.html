@@ -8,45 +8,25 @@
 </head>
 <body>
     
-    <h1>Formulario de registro</h1>
-    <p>Por favor,completa la informacion del formulario  y pulsa enviar cuando hayas concluido</p>
-    <!--Espacio reservado para notificar los errores de validacion -->
     
     
-    
-    <?php 
-        if($error_frm == 1)
-        {
-            <p style="color:red;">
-                ERROR: todos los campos son requeridos 
-            </p>
-        }
+    <!--Escribir la ruta del archivo php -->
+    <!--mETODO COMO voy a mandar  y escribir informacion -->
+    <form action="Carpetasphp/correos.php" method="post">
+        <div>
+             <label for="full-name">Nombre</label>
+             <input id="full-name" name="nombre" type="text" required>
+        </div>
 
-    ?>
-    
-    <form action="correos.php" method="post">
-        <p>Nombre completo
-            <label>
-                <input type="text" name="nombre" id="nombre" value="<?php=$FormData['nombre']?>"/>
+        <div>
+            <label for="ho">Email</label>
+            <input id="ho" name="email" type="email" placeholder="hoe@gmail.com" required>
+       </div>
 
-            </label>
-
-        </p>
-
-        <p>Email
-            <label>
-                <input type="text" name="email" id="email" value="<?php=$FormData['email']?>"/>
-
-            </label>
-
-        </p>
-
-        <p>
-            <input type="submit" name="submit" id="submit" value="Enviar"/>
-        </p>
-        
-        
-    </form>
+       <div>
+            <button type="submit">Submit</button>
+       </div>    
+  </form>
     
 </body>
 </html>
