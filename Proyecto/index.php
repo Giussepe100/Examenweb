@@ -51,7 +51,7 @@
             </div>
             <div class="links-libro">
                 <a href="libros/libro-ojala.php" class="link-titulo">OJALA</a><br>
-                <a href="biografíaautor.html" class="link-autor">Defreds José. A. Gomez Iglesias</a><br>
+                <a href="../biografíaautor.html" class="link-autor">Defreds José. A. Gomez Iglesias</a><br>
                 <a href="libros/libro-ojala.php" class="btn">Previsualizar</a><br>
                 <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.61</a>
             </div>
@@ -64,7 +64,7 @@
             </div>
             <div class="links-libro">
                 <a href="libros/libro-metamorfosis.php" class="link-titulo">LA METAMORFOSIS</a><br>
-                <a href="biografíaautor.html" class="link-autor">Franz Kafka</a><br>
+                <a href="../biografíaautor.html" class="link-autor">Franz Kafka</a><br>
                 <a href="libros/libro-metamorfosis.php" class="btn">Previsualizar</a><br>
                 <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.49.50</a>
             </div>
@@ -77,7 +77,7 @@
             </div>
             <div class="links-libro">
                 <a href="libros/libro-crimen-y-castigo.php" class="link-titulo">CRIMEN Y CASTIGO</a><br>
-                <a href="biografíaautor.html" class="link-autor">Fiódor Dostoyevski</a><br>
+                <a href="../biografíaautor.html" class="link-autor">Fiódor Dostoyevski</a><br>
                 <a href="libros/libro-crimen-y-castigo.php" class="btn">Previsualizar</a><br>
                 <a href="Pago.html" class="btn"><img src="imagenes/carrito.png" width="auto" height="20px" align="center">&nbsp;Agregar S/.69</a>
             </div>

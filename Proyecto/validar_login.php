@@ -14,7 +14,7 @@ if(isset($_POST['btn_login'])){
         if($filas){
             session_start();
             $_SESSION['usuario']=$usuario;
-            header("location:Carpetasphp/home-user.php");
+            header("location:../Carpetasphp/home-user.php");
         }
         else{
             ?>
